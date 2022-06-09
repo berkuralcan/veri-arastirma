@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem equals 10px */
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(94, 122, 247, 0.74), rgba(182, 201, 229, 0.795)), url("./img/uc.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.under-construction {
+    color: rgb(255, 255, 255); 
+    font-size: 6rem;
+
+}
+
+@media only screen and (max-width: 600px){
+    .under-construction {
+        font-size: 3rem;
+    }
+}
