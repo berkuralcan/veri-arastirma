@@ -26,7 +26,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(94, 122, 247, 0.74), rgba(182, 201, 229, 0.795)), url("./img/uc.jpg");
+    background-image: linear-gradient(to right bottom, rgba(11, 12, 14, 0.74), rgba(55, 56, 58, 0.795)), url("./img/uc.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
